@@ -1,1 +1,46 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --white: #FFFFFF;
+  --light-green: #DEF4C6;
+  --leaf-green: #B1CF5F;
+  --average-green: #1C7C54;
+  --bold-green: #1B512D;
+  --shadow: #00000029;
+  --txt-desc-tiny: #00000099;
+  --txt-desc-large: #000000B3;
+  --txt-title: #000000CC;
+  --border-outline: #00000021;
+  --icon-grey: #0000004D;
+  --txt-title-bold: #000000D9;
+  --icon-input: #00000033;
+  --bg-area: #00000008;
+  --txt-input: #0000008C;
+  --txt-below-icon: #000000A6;
+  --line: #07070726;
+  --txt-tiny-detail: #00000066;
+  --normal-rowdies: normal normal normal Rowdies;
+  --bold-rowdies: normal normal bold Rowdies;
+  --normal-gotu: normal normal normal Gotu;
+  --normal-300-rowdies: normal normal 300 Rowdies;
+}
+
+.box-outline {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border: 1px solid #00000021;
+}
+
+.card-shadow {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 6px #00000029;
+}
+
+.txt-header-region {
+  font: var(--bold-rowdies);
+  color: var(--bold-green);
+  font-size: 35px;
+}
+
+.txt-desc-below-header {
+  font: var(--normal-gotu);
+  color: var(--txt-desc-large);
+  font-size: 24px;
+}
