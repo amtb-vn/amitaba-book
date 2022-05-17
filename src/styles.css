@@ -24,13 +24,13 @@
 }
 
 .box-outline {
-  background: #FFFFFF 0 0 no-repeat padding-box;
-  border: 1px solid #00000021;
+  background: var(--white) no-repeat 0 0;
+  border: 1px solid var(--border-outline);
 }
 
 .card-shadow {
-  background: #FFFFFF 0 0 no-repeat padding-box;
-  box-shadow: 0 3px 6px #00000029;
+  background: 0 0 no-repeat padding-box var(--white);
+  box-shadow: 0 3px 6px var(--shadow);
 }
 
 .txt-header-region {
@@ -43,4 +43,108 @@
   font: var(--normal-gotu);
   color: var(--txt-desc-large);
   font-size: 24px;
+}
+
+.txt-title-card {
+  font: var(--normal-300-rowdies);
+  text-align: left;
+  font-size: 22px;
+  color: var(--txt-title);
+}
+
+.txt-desc-beside-icon {
+  font: var(--normal-gotu);
+  font-size: 16px;
+  color: var(--txt-desc-tiny);
+  text-align: left;
+}
+
+.txt-title-form {
+  font: var(--normal-300-rowdies);
+  text-align: left;
+  color: var(--txt-title);
+  font-size: 18px;
+}
+
+.txt-tiny-desc-input {
+  font: var(--normal-gotu);
+  text-align: left;
+  font-size: 14px;
+  color: var(--txt-input);
+}
+
+.txt-large-desc-in-box {
+  font: var(--normal-gotu);
+  color: var(--txt-title);
+  text-align: left;
+  font-size: 18px;
+}
+
+.txt-small-note {
+  font: var(--normal-gotu);
+  text-align: left;
+  font-size: 14px;
+}
+
+.txt-total {
+  font: var(--normal-300-rowdies);
+  color: var(--txt-title);
+  text-align: left;
+  font-size: 20px;
+}
+
+.txt-total-number {
+  font: var(--normal-rowdies);
+  color: var(--txt-title);
+  text-align: left;
+  font-size: 22px;
+}
+
+.circle-div-header {
+  width: 50px;
+  height: 50px;
+  background: 0 0 no-repeat padding-box var(--average-green);
+}
+
+.button-common {
+  padding: 19px 95px;
+  height: 59px;
+  text-align: center;
+  border-radius: 37px;
+  font: var(--normal-rowdies) 18px;
+}
+
+.button-filled {
+  background: var(--average-green) 0 0 no-repeat padding-box;
+  color: var(--white);
+}
+
+.button-outline {
+  background: var(--white) 0 0 no-repeat padding-box;
+  border: 1px solid var(--average-green);
+  color: var(--average-green);
+}
+
+.input-common {
+  height: 66px;
+  border-radius: 33px;
+  border: 1px solid var(--border-outline);
+  background: var(--white) 0 0 no-repeat padding-box;
+}
+
+.input-icon {
+  width: 31px;
+  height: 31px;
+  background: 0 0 no-repeat padding-box var(--icon-input);
+  padding: 17px 0 41px;
+}
+
+.input-text-inline {
+  padding-left: 41px;
+}
+
+.circle-animation {
+  width: 101px;
+  height: 101px;
+  background: var(--leaf-green) 0 0 no-repeat padding-box;
 }
