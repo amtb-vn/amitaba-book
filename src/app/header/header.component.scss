@@ -1,6 +1,6 @@
 header {
   background-color: var(--leaf-green);
-  height: 97px;
+  height: 90px;
 }
 
 .left-flex {
@@ -11,7 +11,7 @@ header {
 
   img {
     margin-left: 140px;
-    width: 211px;
+    width: 175px;
   }
 }
 
@@ -30,7 +30,7 @@ header {
     span {
       font-family: rowdies-bold;
       color: var(--bold-green);
-      font-size: 18px;
+      font-size: 17px;
     }
 
     li {
@@ -43,9 +43,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--bold-green);
+  width: 45px;
+  height: 45px;
 }
 
 .cart-icon {
-  width: 35px;
+  width: 30px;
   height: auto;
 }
