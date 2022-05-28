@@ -1,0 +1,51 @@
+footer {
+  height: 250px;
+  background-color: var(--average-green);
+}
+
+.content-wrapper {
+  padding-top: 50px;
+}
+
+.left-foot-intro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+
+  img {
+    width: 230px;
+  }
+
+  span {
+    font-family: gotu-regular;
+    font-size: 18px;
+    opacity: 0.9;
+    color: var(--white);
+    width: 395px;
+    margin-top: 27px;
+  }
+}
+
+.right-foot-wrapper {
+  margin-right: 140px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+  li {
+    margin: auto;
+  }
+
+  span {
+    font-family: rowdies-regular;
+    font-size: 20px;
+    color: var(--white);
+  }
+}
+
+.fb-icon {
+  width: 34px;
+}

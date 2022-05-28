@@ -38,6 +38,10 @@
   src: url("assets/fonts/Rowdies/Rowdies-Bold.ttf");
 }
 
+@font-face {
+  font-family: gotu-regular;
+  src: url("assets/fonts/Gotu/Gotu-Regular.ttf");
+}
 .box-outline {
   background: var(--white) no-repeat 0 0;
   border: 1px solid var(--border-outline);
@@ -172,5 +176,16 @@ body {
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  height: 100px;
+}
+
+.left-half-row {
+  flex: 1 50%;
+  order: 1;
+  justify-content: flex-start;
+}
+
+.right-half-row {
+  flex: 1 50%;
+  order: 2;
+  justify-content: flex-end;
 }

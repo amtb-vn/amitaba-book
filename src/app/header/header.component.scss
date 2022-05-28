@@ -3,6 +3,10 @@ header {
   height: 90px;
 }
 
+.flex-wrapper {
+  height: 100px;
+}
+
 .left-flex {
   justify-content: flex-start;
   flex: 1 30%;
@@ -28,7 +32,7 @@ header {
     list-style: none;
 
     span {
-      font-family: rowdies-bold;
+      font-family: rowdies-regular;
       color: var(--bold-green);
       font-size: 17px;
     }
