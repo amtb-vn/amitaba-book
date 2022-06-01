@@ -1,0 +1,50 @@
+.book-card-box {
+  width: 286px;
+  height: 474px;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 286px;
+    height: 323px;
+    object-fit: cover;
+  }
+}
+
+.book-item-info {
+  margin: 34px 29px;
+
+  span {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 45px;
+    overflow: hidden;
+  }
+}
+
+.item-details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+
+  .div-icon-book-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 25px;
+
+    img {
+      width: 10px;
+      height: 12px;
+    }
+  }
+
+  span {
+    margin-left: 8px;
+    white-space: nowrap;
+    display: block;
+  }
+}

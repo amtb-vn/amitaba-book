@@ -65,9 +65,9 @@
 }
 
 .txt-title-card {
-  font: var(--normal-300-rowdies);
+  font-family: rowdies-light;
   text-align: left;
-  font-size: 22px;
+  font-size: 18px;
   color: var(--txt-title);
 }
 
