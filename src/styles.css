@@ -4,6 +4,7 @@
   --leaf-green: #B1CF5F;
   --average-green: #1C7C54;
   --bold-green: #1B512D;
+  --bg-green: #F5FCEE;
   --shadow: #00000029;
   --txt-desc-tiny: #00000099;
   --txt-desc-large: #000000B3;
@@ -53,15 +54,15 @@
 }
 
 .txt-header-region {
-  font: var(--bold-rowdies);
+  font-family: rowdies-bold;
   color: var(--bold-green);
-  font-size: 35px;
+  font-size: 28px;
 }
 
 .txt-desc-below-header {
-  font: var(--normal-gotu);
   color: var(--txt-desc-large);
-  font-size: 24px;
+  font-size: 19px;
+  font-family: gotu-regular;
 }
 
 .txt-title-card {
@@ -146,10 +147,20 @@
 }
 
 .input-common {
-  height: 66px;
-  border-radius: 33px;
+  padding-left: 50px;
+  height: 53px;
+  border-radius: 28px;
   border: 1px solid var(--border-outline);
   background: var(--white) 0 0 no-repeat padding-box;
+  outline: none;
+  font-family: gotu-regular;
+  color: var(--txt-input);
+  font-size: 16px;
+}
+
+.input-common:focus {
+  color: var(--txt-title);
+  border-color: var(--leaf-green) !important;
 }
 
 .input-icon {
@@ -188,4 +199,18 @@ body {
   flex: 1 50%;
   order: 2;
   justify-content: flex-end;
+}
+
+.icon {
+  padding-left: 25px;
+  position: absolute;
+  color: var(--icon-input);
+}
+
+.btn-action-style {
+  cursor: pointer;
+}
+
+.btn-action-style:hover {
+  opacity: 0.5;
 }
