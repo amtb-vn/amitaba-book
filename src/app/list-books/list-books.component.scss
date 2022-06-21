@@ -80,4 +80,7 @@ input {
 
 .book-cards {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 57px;
 }

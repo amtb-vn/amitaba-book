@@ -1,0 +1,28 @@
+.flex-container {
+  margin-top: 60px;
+}
+
+.left-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.circle-div-header {
+  margin-right: 15px;
+  img {
+    padding: 7px;
+    width: 35px;
+    margin: auto;
+    display: block;
+  }
+}
+
+.txt-desc-below-header {
+  max-width: 550px;
+}

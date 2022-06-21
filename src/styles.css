@@ -62,6 +62,7 @@
 .txt-desc-below-header {
   color: var(--txt-desc-large);
   font-size: 19px;
+  margin-top: 20px;
   font-family: gotu-regular;
 }
 

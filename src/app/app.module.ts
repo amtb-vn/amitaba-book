@@ -5,16 +5,22 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { BookCartComponent } from './book-cart/book-cart.component';
+import { BookCardComponent } from './book-card/book-card.component';
 import { ListBooksComponent } from './list-books/list-books.component';
+import { CartComponent } from './cart/cart.component';
+import { CartItemComponent } from './cart-item/cart-item.component';
+import { QuantityBoxComponent } from './quantity-box/quantity-box.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    BookCartComponent,
-    ListBooksComponent
+    BookCardComponent,
+    ListBooksComponent,
+    CartComponent,
+    CartItemComponent,
+    QuantityBoxComponent
   ],
   imports: [
     BrowserModule,
