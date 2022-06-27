@@ -1,0 +1,147 @@
+.book-details-container {
+  width: 91%;
+  margin: 76px auto;
+
+  .right-half-row {
+    flex: 1 35%;
+  }
+}
+
+.book-img-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-img {
+  width: 509px;
+  height: 386px;
+}
+
+.sub-img-container {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 137px;
+    height: 186px;
+    margin: 0px 0px 0px 15px;
+  }
+
+  .sub-img-below {
+    margin-top: 15px;
+  }
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  .book-title {
+    font-family: rowdies-regular;
+    font-size: 28px;
+    color: var(--txt-title);
+  }
+
+  .circle-div-header {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.details-group {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+
+  .detail-element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .icon-label {
+      width: 12px;
+      display: block;
+      padding: 9px;
+      margin: auto;
+    }
+
+    .icon-pages {
+      width: 21px;
+      padding: 8px;
+    }
+
+    .icon-size {
+      padding: 10px;
+      width: 16px;
+    }
+
+    .circle-div-header {
+      margin-right: 10px;
+    }
+
+    .circle-div-icon {
+      margin-left: 30px;
+    }
+  }
+}
+
+.btn-download {
+  margin-top: 30px;
+  width: 193px;
+  background: var(--white) 0 0 no-repeat padding-box;
+  border: 1px solid var(--leaf-green);
+  color: var(--leaf-green);
+
+  img {
+    width: 20px;
+    padding: 0 15px;
+  }
+}
+
+.btn-download:hover {
+  background-color: var(--bg-green);
+}
+
+.quantity-container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .txt-storage {
+    margin-left: 30px;
+    font-family: rowdies-regular;
+    font-size: 18px;
+    color: var(--txt-desc-tiny);
+  }
+}
+
+.btn-action-container {
+  margin-top: 30px;
+
+  .btn-checkout {
+    margin-left: 35px;
+  }
+}
+
+.summary-container {
+  margin-top: 85px;
+  padding: 81px 71px;
+  border: 1px solid var(--icon-input);
+  border-radius: 10px;
+
+  label {
+    font-family: rowdies-regular;
+    font-size: 28px;
+    color: var(--txt-title-bold);
+  }
+
+  p {
+    color: var(--txt-desc-large);
+  }
+
+  .summary-para {
+    margin-top: 44px;
+  }
+}

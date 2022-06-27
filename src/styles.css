@@ -3,6 +3,7 @@
   --light-green: #DEF4C6;
   --leaf-green: #B1CF5F;
   --average-green: #1C7C54;
+  --bg-average-green: #D4F7E8FF;
   --bold-green: #1B512D;
   --bg-green: #F5FCEE;
   --shadow: #00000029;
@@ -43,6 +44,7 @@
   font-family: gotu-regular;
   src: url("assets/fonts/Gotu/Gotu-Regular.ttf");
 }
+
 .box-outline {
   background: var(--white) no-repeat 0 0;
   border: 1px solid var(--border-outline);
@@ -74,8 +76,8 @@
 }
 
 .txt-desc-beside-icon {
-  font: var(--normal-gotu);
-  font-size: 16px;
+  font-family: gotu-regular;
+  font-size: 12px;
   color: var(--txt-desc-tiny);
   text-align: left;
 }
@@ -95,7 +97,7 @@
 }
 
 .txt-large-desc-in-box {
-  font: var(--normal-gotu);
+  font-family: gotu-regular;
   color: var(--txt-title);
   text-align: left;
   font-size: 18px;
@@ -134,9 +136,11 @@
   height: 55px;
   text-align: center;
   border-radius: 37px;
+  padding: 0px 80px;
   font: var(--normal-rowdies) 18px;
   font-family: rowdies-regular;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .button-common:hover {
@@ -152,6 +156,10 @@
   background: var(--white) 0 0 no-repeat padding-box;
   border: 1px solid var(--average-green);
   color: var(--average-green);
+}
+
+.button-outline:hover {
+  background-color: var(--bg-average-green);
 }
 
 .input-common {
@@ -192,7 +200,7 @@ body {
   margin: 0;
 }
 
-.flex-container {
+.flex-row-container {
   display: flex;
   flex-flow: row wrap;
 }

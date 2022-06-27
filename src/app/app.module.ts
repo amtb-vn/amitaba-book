@@ -10,6 +10,7 @@ import { ListBooksComponent } from './list-books/list-books.component';
 import { CartComponent } from './cart/cart.component';
 import { CartItemComponent } from './cart-item/cart-item.component';
 import { QuantityBoxComponent } from './quantity-box/quantity-box.component';
+import { BookDetailsComponent } from './book-details/book-details.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { QuantityBoxComponent } from './quantity-box/quantity-box.component';
     ListBooksComponent,
     CartComponent,
     CartItemComponent,
-    QuantityBoxComponent
+    QuantityBoxComponent,
+    BookDetailsComponent
   ],
   imports: [
     BrowserModule,
