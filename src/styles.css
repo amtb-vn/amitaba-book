@@ -102,23 +102,24 @@
 }
 
 .txt-small-note {
-  font: var(--normal-gotu);
+  color: var(--txt-desc-tiny);
+  font-family: gotu-regular;
   text-align: left;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .txt-total {
-  font: var(--normal-300-rowdies);
+  font-family: rowdies-regular;
   color: var(--txt-title);
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .txt-total-number {
-  font: var(--normal-rowdies);
+  font-family: rowdies-bold;
   color: var(--txt-title);
-  text-align: left;
-  font-size: 22px;
+  font-size: 20px;
+  white-space: nowrap;
 }
 
 .circle-div-header {
@@ -129,11 +130,17 @@
 }
 
 .button-common {
-  padding: 19px 95px;
-  height: 59px;
+  all: unset;
+  height: 55px;
   text-align: center;
   border-radius: 37px;
   font: var(--normal-rowdies) 18px;
+  font-family: rowdies-regular;
+  cursor: pointer;
+}
+
+.button-common:hover {
+  opacity: 0.85;
 }
 
 .button-filled {

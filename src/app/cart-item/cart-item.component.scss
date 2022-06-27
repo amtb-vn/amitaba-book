@@ -3,8 +3,17 @@
   width: 626px;
   height: 121px;
   padding: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
   img {
+    margin: 0 30px;
     width: 68px;
   }
+}
+
+.quantity-wrapper {
+  margin-left: auto;
+  margin-right: 20px;
 }

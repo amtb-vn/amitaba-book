@@ -1,5 +1,5 @@
 <div class="flex-container">
-  <div class="left-half-row left-wrapper">
+  <div class="left-wrapper">
     <div class="title-wrapper">
       <div class="circle-div-header">
         <img src="assets/images/web/cart.svg">
@@ -7,9 +7,27 @@
       <label class="txt-header-region">Neque porro</label>
     </div>
     <label class="txt-desc-below-header">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</label>
-    <app-cart-item></app-cart-item>
+    <div class="items-box">
+      <app-cart-item></app-cart-item>
+      <div class="btn-del">
+        <img src="assets/images/web/icon-delete.svg">
+      </div>
+    </div>
+    <div class="items-box">
+      <app-cart-item></app-cart-item>
+      <div class="btn-del">
+        <img src="assets/images/web/icon-delete.svg">
+      </div>
+    </div>
   </div>
   <div class="right-half-row">
-
+    <div class="total-container">
+      <div class="total-txt-container">
+        <span class="txt-total">Total:</span>
+        <span class="txt-total-number">3 books</span>
+      </div>
+      <span class="txt-small-note">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</span>
+      <button class="button-common button-filled">CONTINUE</button>
+    </div>
   </div>
 </div>

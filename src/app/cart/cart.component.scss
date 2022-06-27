@@ -1,5 +1,7 @@
 .flex-container {
   margin-top: 60px;
+  margin-bottom: 100px;
+  justify-content: center;
 }
 
 .left-wrapper {
@@ -25,4 +27,63 @@
 
 .txt-desc-below-header {
   max-width: 550px;
+}
+
+.items-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.btn-del {
+  width: 65px;
+  height: 65px;
+  border-radius: 33px;
+  box-shadow: 0px 3px 6px var(--shadow);
+  cursor: pointer;
+  margin: 0 32px;
+
+  img {
+    width: 22px;
+    display: block;
+    margin: auto;
+    padding: 18px;
+  }
+}
+
+.btn-del:hover {
+  background-color: var(--bg-area);
+}
+
+.right-half-row {
+  flex: 0;
+}
+
+.total-container {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid var(--border-outline);
+  padding: 56px;
+}
+
+.total-txt-container {
+  display: flex;
+  flex-direction: row;
+
+  .txt-total-number {
+    margin-left: 71px;
+  }
+}
+
+.txt-small-note {
+  min-width: 233px;
+  margin-top: 40px;
+}
+
+.button-filled {
+  margin-top: 17px;
+  min-width: 233px;
 }

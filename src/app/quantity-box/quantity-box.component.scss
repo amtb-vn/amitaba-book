@@ -1,0 +1,29 @@
+.quantity-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.circle-div-outline {
+  margin: 0 15px;
+  cursor: pointer;
+  width: 54px;
+  height: 54px;
+  border-radius: 28px;
+  border: 1px solid var(--border-outline);
+  text-align: center;
+}
+
+.fa-minus, .fa-plus {
+  padding: 18px;
+  color: var(--icon-grey);
+}
+
+.circle-div-outline:hover {
+  background-color: var(--bg-area);
+}
+
+label {
+  color: var(--bold-green);
+  font-family: rowdies-regular;
+  font-size: 25px;
+}
