@@ -311,3 +311,18 @@ body {
   width: 91%;
   margin: 76px auto;
 }
+
+.btn-round-outline {
+  width: 101px;
+  height: 101px;
+  border-radius: 56px;
+  border: 1px var(--leaf-green) solid;
+}
+
+.btn-round-outline:hover, .btn-round-outline-clicked {
+  background-color: var(--bg-green);
+}
+
+.btn-round-wrapper {
+  cursor: pointer;
+}

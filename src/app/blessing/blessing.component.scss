@@ -1,0 +1,40 @@
+.circle-div-header {
+  margin-right: 14px;
+
+  img {
+    width: 23px;
+    padding: 14px;
+    margin: auto;
+    display: block;
+  }
+}
+
+.box-outline {
+  width: 40%;
+  margin: auto;
+  margin-top: 60px;
+  padding: 67px;
+  border-radius: 5px;
+
+  .flex-col-container {
+    align-items: center;
+  }
+
+  .icon-type {
+    width: 53px;
+    padding: 24px;
+  }
+}
+
+.btn-round-wrapper {
+  margin: 40px;
+  label {
+    margin-top: 10px;
+  }
+}
+
+.btn-group-container {
+  button {
+    margin-top: 30px;
+  }
+}

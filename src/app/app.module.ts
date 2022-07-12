@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatSelectModule} from "@angular/material/select";
 import { SelectBoxComponent } from './select-box/select-box.component';
+import { BlessingComponent } from './blessing/blessing.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SelectBoxComponent } from './select-box/select-box.component';
     QuantityBoxComponent,
     BookDetailsComponent,
     AddressFormComponent,
-    SelectBoxComponent
+    SelectBoxComponent,
+    BlessingComponent
   ],
   imports: [
     BrowserModule,

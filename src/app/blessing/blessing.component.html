@@ -1,0 +1,32 @@
+<div class="flex-col-container content-container">
+  <div class="title-wrapper">
+    <div class="circle-div-header">
+      <img src="assets/images/web/icon-gift.svg">
+    </div>
+    <label class="txt-header-region">Neque porro</label>
+  </div>
+  <label class="txt-desc-below-header">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet</label>
+  <div class="box-outline">
+    <div class="flex-col-container">
+      <label class="txt-title-form">Lorem Ipsum is simply dummy text</label>
+      <div class="flex-row-container">
+        <div class="flex-col-container btn-round-wrapper" (click)="chooseBlessingOption()">
+          <div class="btn-round-outline" [ngClass]="blessingOption == 'type' ? 'btn-round-outline-clicked' : ''">
+            <img class="icon-type" src="assets/images/web/icon-document.svg">
+          </div>
+          <label class="txt-desc-beside-icon">Typing</label>
+        </div>
+        <div class="flex-col-container btn-round-wrapper" (click)="chooseBlessingOption()">
+          <div class="btn-round-outline" [ngClass]="blessingOption == 'voice' ? 'btn-round-outline-clicked' : ''">
+            <img class="icon-type" src="assets/images/web/icon-voice.svg">
+          </div>
+          <label class="txt-desc-beside-icon">Speak</label>
+        </div>
+      </div>
+      <div class="btn-group-container flex-col-container">
+        <button class="button-common button-filled">START</button>
+        <button class="button-common button-outline">BACK</button>
+      </div>
+    </div>
+  </div>
+</div>
