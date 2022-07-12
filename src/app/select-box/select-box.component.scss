@@ -1,0 +1,60 @@
+.mat-form-field {
+  width: 187px;
+  height: 53px;
+  border-radius: 28px;
+  border: 1px solid var(--border-outline);
+  outline: none;
+  font-family: gotu-regular;
+  color: var(--txt-input);
+  font-size: 16px;
+}
+
+.double-size {
+  width: 402px;
+}
+
+.mat-form-field-flex {
+  background-color: rgba(0, 0, 0, 0.00) !important;
+}
+
+.mat-form-field-underline {
+  display: none;
+}
+
+.mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: var(--bold-green);
+}
+
+.mat-form-field-appearance-fill.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+  display: none;
+}
+
+.mat-select {
+  font-family: gotu-regular;
+}
+
+.mat-select-arrow-wrapper {
+  height: 0px;
+}
+
+.mat-form-field-infix {
+  border-top: 0;
+  padding: 0 !important;
+}
+
+.mat-form-field-wrapper {
+  padding: 12px;
+}
+
+.mat-form-field-appearance-fill .mat-select-arrow-wrapper {
+  transform: none;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  padding: 9px !important;
+}
+
+.mat-form-field-appearance-fill .mat-form-field-label {
+  top: 1.09375em;
+  margin-top: -5px;
+}

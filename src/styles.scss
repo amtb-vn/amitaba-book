@@ -1,3 +1,38 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$amitaba-book-primary: mat.define-palette(mat.$indigo-palette);
+$amitaba-book-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$amitaba-book-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$amitaba-book-theme: mat.define-light-theme((
+  color: (
+    primary: $amitaba-book-primary,
+    accent: $amitaba-book-accent,
+    warn: $amitaba-book-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($amitaba-book-theme);
+
 :root {
   --white: #FFFFFF;
   --light-green: #DEF4C6;
@@ -62,6 +97,8 @@
 }
 
 .txt-desc-below-header {
+  line-height: 28px;
+  max-width: 550px;
   color: var(--txt-desc-large);
   font-size: 19px;
   margin-top: 20px;
@@ -83,7 +120,7 @@
 }
 
 .txt-title-form {
-  font: var(--normal-300-rowdies);
+  font-family: rowdies-regular;
   text-align: left;
   color: var(--txt-title);
   font-size: 18px;
@@ -167,11 +204,19 @@
   height: 53px;
   border-radius: 28px;
   border: 1px solid var(--border-outline);
-  background: var(--white) 0 0 no-repeat padding-box;
-  outline: none;
-  font-family: gotu-regular;
-  color: var(--txt-input);
-  font-size: 16px;
+    background: var(--white) 0 0 no-repeat padding-box;
+    outline: none;
+    font-family: gotu-regular;
+    color: var(--txt-input);
+    font-size: 16px;
+}
+
+.input-half-width {
+  width: 175px;
+}
+
+.input-full-width {
+  width: 350px;
 }
 
 .input-common:focus {
@@ -188,6 +233,18 @@
 
 .input-text-inline {
   padding-left: 41px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-box:hover {
+  .icon {
+    color: var(--leaf-green);
+  }
 }
 
 .circle-animation {
@@ -229,4 +286,28 @@ body {
 
 .btn-action-style:hover {
   opacity: 0.5;
+}
+
+.flex-col-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.content-container {
+  width: 91%;
+  margin: 76px auto;
 }

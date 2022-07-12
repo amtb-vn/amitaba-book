@@ -11,6 +11,11 @@ import { CartComponent } from './cart/cart.component';
 import { CartItemComponent } from './cart-item/cart-item.component';
 import { QuantityBoxComponent } from './quantity-box/quantity-box.component';
 import { BookDetailsComponent } from './book-details/book-details.component';
+import { AddressFormComponent } from './address-form/address-form.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatSelectModule} from "@angular/material/select";
+import { SelectBoxComponent } from './select-box/select-box.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +27,16 @@ import { BookDetailsComponent } from './book-details/book-details.component';
     CartComponent,
     CartItemComponent,
     QuantityBoxComponent,
-    BookDetailsComponent
+    BookDetailsComponent,
+    AddressFormComponent,
+    SelectBoxComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -29,10 +29,6 @@
   flex: 0;
 }
 
-input {
-  width: 350px;
-}
-
 .btn-filter {
   margin-left: 17px;
   background-color: var(--leaf-green);
@@ -43,18 +39,6 @@ input {
     display: block;
     width: 23px;
     height: auto;
-  }
-}
-
-.input-box {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.input-box:hover {
-  .icon {
-    color: var(--leaf-green);
   }
 }
 
